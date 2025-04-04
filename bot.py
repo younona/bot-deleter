@@ -2,8 +2,8 @@ from telethon import TelegramClient, events
 from telethon.tl.types import MessageActionChatAddUser, MessageActionChatJoinedByLink
 
 # 🔹 API-ключи пользователя
-API_ID = 22254977  # Без кавычек
-API_HASH = "db09f5e408a1dff1898cc1613ae18415"  # В кавычках
+API_ID = your api id  # Без кавычек
+API_HASH = "your api id"  # В кавычках
 
 client = TelegramClient("userbot", API_ID, API_HASH)
 
